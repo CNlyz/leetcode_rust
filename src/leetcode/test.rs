@@ -1,12 +1,12 @@
 pub mod test {
-    pub fn print(content: &String) {
+    pub fn test_print(content: &String) {
         println!("{content}");
     }
 }
 
-pub fn test_print() {
+pub fn test_print1() {
     let s = String::from("hello");
-    test::print(&s);
+    test::test_print(&s);
     println!("{s}")
 }
 
